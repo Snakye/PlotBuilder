@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "o+l1uLwPYRUGXaawVffJFk1gqCK3/NPX6W398EE2SVXYRXlJ5maFBPZ3JKaQkAPPKzh1uirDzlg/EZ/x1wMCCg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\damag\\RiderProjects\\PlotBuilder\\PlotBuilder.UI\\PlotBuilder.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\damag\\.nuget\\packages\\scottplot\\4.1.59\\scottplot.4.1.59.nupkg.sha512",
+    "C:\\Users\\damag\\.nuget\\packages\\scottplot.wpf\\4.1.59\\scottplot.wpf.4.1.59.nupkg.sha512",
+    "C:\\Users\\damag\\.nuget\\packages\\system.drawing.common\\4.6.1\\system.drawing.common.4.6.1.nupkg.sha512",
+    "C:\\Users\\damag\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\damag\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
+    "C:\\Users\\damag\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

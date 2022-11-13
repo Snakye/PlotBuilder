@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+    <PropertyGroup>
+        <PlatformTarget>x64</PlatformTarget>
+        <TargetFramework>net472</TargetFramework>
+        <UseWpf>true</UseWpf>
+        <LangVersion>10</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="ScottPlot.WPF" Version="4.1.59" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Models" />
+      <Folder Include="ViewModels" />
+    </ItemGroup>
+</Project>

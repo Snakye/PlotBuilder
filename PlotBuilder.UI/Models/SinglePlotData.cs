@@ -6,19 +6,19 @@ namespace PlotBuilder.UI.Models;
 /// <summary> Данные для набора графиков, у которого общая ось Y </summary>
 public class SinglePlotData
 {
-    public SinglePlotData(List<List<double>> yPoints, string yLabel, List<string> graphNames, List<MarkerShape> markerShapes = null)
+    public SinglePlotData(List<double> yPoints, string yLabel, string graphName, MarkerShape markerShape = MarkerShape.none)
     {
         YPoints = yPoints;
         YLabel = yLabel;
-        GraphNames = graphNames;
-        MarkerShapes = markerShapes ?? new List<MarkerShape>();
+        GraphName = graphName;
+        MarkerShape = markerShape;
     }
     
     /// <summary>
     /// Точки по оси Y
     /// <remarks> Каждый список соответствует своему графику </remarks>
     /// </summary>
-    public List<List<double>> YPoints { get; set; } = new();
+    public List<double> YPoints { get; set; } = new();
     
     /// <summary>
     /// Название оси Y
@@ -28,10 +28,10 @@ public class SinglePlotData
     /// <summary>
     /// Названия графиков
     /// </summary>
-    public List<string> GraphNames { get; set; }
+    public string GraphName { get; set; }
     
     /// <summary>
     /// Вид точек графиков
     /// </summary>
-    public List<MarkerShape> MarkerShapes { get; set; }
+    public MarkerShape MarkerShape { get; set; }
 }

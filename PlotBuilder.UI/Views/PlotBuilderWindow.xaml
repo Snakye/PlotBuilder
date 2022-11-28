@@ -8,7 +8,8 @@
         Title="MainWindow"
         SizeToContent="WidthAndHeight"
         MinWidth="800"
-        MinHeight="600">
+        MinHeight="600"
+        FontSize="14">
     
     <!-- Resources -->
     <Window.Resources>
@@ -36,6 +37,65 @@
         <TabControl
             Margin="10"
             Grid.Column="1">
+            
+            <!-- Visibility Options Tab -->
+            <TabItem>
+                <TabItem.Header>
+                    <Button
+                        Style="{StaticResource Button40}"
+                        Content="{DynamicResource VisibilityIcon}"/>
+                </TabItem.Header>
+                <Grid
+                    Margin="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="200"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    
+                    <TextBlock
+                        Grid.Column="0"
+                        Grid.Row="0"
+                        Margin="5"
+                        Text="Группа"/>
+                    
+                    <ComboBox
+                        Grid.Column="1"
+                        Grid.Row="0"
+                        Margin="5"/>
+                    
+                    <TextBlock
+                        Grid.Column="0"
+                        Grid.Row="1"
+                        Margin="5"
+                        Text="График"/>
+                    
+                    <ComboBox
+                        Grid.Column="1"
+                        Grid.Row="1"
+                        Margin="5"/>
+                    
+                    <TextBlock
+                        Grid.Column="0"
+                        Grid.Row="2"
+                        Margin="5"
+                        Text="Изменить стиль линий"/>
+                    
+                    <CheckBox 
+                        Grid.Column="1"
+                        Grid.Row="2"
+                        VerticalAlignment="Center"
+                        Margin="5"/>
+                    
+                </Grid>
+            </TabItem>
+            
+            <!-- Settings Tab -->
             <TabItem>
                 <TabItem.Header>
                     <Button
@@ -43,6 +103,8 @@
                         Content="{DynamicResource SettingsIcon}"/>
                 </TabItem.Header>
             </TabItem>
+            
+            <!-- Save/Load Tab -->
             <TabItem>
                 <TabItem.Header>
                     <Button

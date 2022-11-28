@@ -1,6 +1,6 @@
-using PlotBuilder.UI.Models;
+﻿namespace PlotBuilder.UI.Abstractions;
 
-namespace PlotBuilder.UI.Abstractions;
+using PlotBuilder.UI.Models;
 
 /// <summary>
 /// Сервис запуска PlotBuilder

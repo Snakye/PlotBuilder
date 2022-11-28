@@ -1,6 +1,6 @@
-using System.Collections.Generic;
+﻿namespace PlotBuilder.UI.Models;
 
-namespace PlotBuilder.UI.Models;
+using System.Collections.Generic;
 
 /// <summary>Полная информация, для построения графиков</summary>
 public class GraphData
@@ -9,12 +9,12 @@ public class GraphData
     /// Набор <see cref="Groups"/>
     /// </summary>
     public List<GroupPlotData> Groups { get; set; }
-    
+
     /// <summary>
     /// Точки по оси X
     /// </summary>
     public List<double> XPoints { get; set; }
-    
+
     /// <summary>
     /// Заголовок
     /// </summary>

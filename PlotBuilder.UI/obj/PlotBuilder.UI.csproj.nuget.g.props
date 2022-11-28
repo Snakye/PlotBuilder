@@ -13,6 +13,7 @@
     <SourceRoot Include="C:\Users\damag\.nuget\packages\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgStyleCop_Analyzers Condition=" '$(PkgStyleCop_Analyzers)' == '' ">C:\Users\damag\.nuget\packages\stylecop.analyzers\1.1.118</PkgStyleCop_Analyzers>
     <PkgScottPlot_WPF Condition=" '$(PkgScottPlot_WPF)' == '' ">C:\Users\damag\.nuget\packages\scottplot.wpf\4.1.59</PkgScottPlot_WPF>
   </PropertyGroup>
 </Project>

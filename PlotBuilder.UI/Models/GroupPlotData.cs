@@ -1,6 +1,6 @@
-using System.Collections.Generic;
+﻿namespace PlotBuilder.UI.Models;
 
-namespace PlotBuilder.UI.Models;
+using System.Collections.Generic;
 
 /// <summary>
 /// Набор <see cref="SinglePlotData"/> объединённый по общему признаку
@@ -17,7 +17,7 @@ public class GroupPlotData
     /// Графики
     /// </summary>
     public List<SinglePlotData> Graphs { get; set; }
-    
+
     /// <summary>
     /// Имя группы
     /// </summary>

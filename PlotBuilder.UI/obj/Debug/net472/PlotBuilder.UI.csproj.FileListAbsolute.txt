@@ -21,3 +21,8 @@ C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\obj\Debug\net472\Assets\
 C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\obj\Debug\net472\Styles\ControlStyles.baml
 C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\obj\Debug\net472\Views\PlotBuilderWindow.g.cs
 C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\obj\Debug\net472\Views\PlotBuilderWindow.baml
+C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\bin\Debug\net472\CommonServiceLocator.dll
+C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\bin\Debug\net472\GalaSoft.MvvmLight.Extras.dll
+C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\bin\Debug\net472\GalaSoft.MvvmLight.Platform.dll
+C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\bin\Debug\net472\GalaSoft.MvvmLight.dll
+C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\bin\Debug\net472\System.Windows.Interactivity.dll

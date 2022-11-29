@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pRF46SQa8O40DOLNeGWV2zyXI1uF5fh3IdiHLVaPN/B7WgaPXEP9Yv4QMQY6VtkKhoYDlBF27KaVrKghLLUIJg==",
+  "dgSpecHash": "x0Axo07Cko8NDLY/7Ow27OIAzPiMkX6ZIGTXmSXzQ68cFMR4sMX1r1IWxtO2ZBqvU9foW06BPz/w7sG6Y/+ubQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\damag\\RiderProjects\\PlotBuilder\\PlotBuilder.UI\\PlotBuilder.UI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\damag\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
+    "C:\\Users\\damag\\.nuget\\packages\\mvvmlight\\5.4.1.1\\mvvmlight.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\damag\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
     "C:\\Users\\damag\\.nuget\\packages\\scottplot\\4.1.59\\scottplot.4.1.59.nupkg.sha512",
     "C:\\Users\\damag\\.nuget\\packages\\scottplot.wpf\\4.1.59\\scottplot.wpf.4.1.59.nupkg.sha512",
     "C:\\Users\\damag\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",

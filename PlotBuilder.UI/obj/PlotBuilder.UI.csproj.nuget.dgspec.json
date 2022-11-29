@@ -40,6 +40,10 @@
         "net472": {
           "targetAlias": "net472",
           "dependencies": {
+            "MvvmLight": {
+              "target": "Package",
+              "version": "[5.4.1.1, )"
+            },
             "ScottPlot.WPF": {
               "target": "Package",
               "version": "[4.1.59, )"

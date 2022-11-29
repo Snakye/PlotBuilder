@@ -261,3 +261,7 @@ paket-files/
 .cr/
 
 /PlotBuilder.UI/bin/
+/PlotBuilder.LibUsingSample/bin/Debug/net6.0-windows/
+/PlotBuilder.LibUsingSample/bin/
+/PlotBuilder.LibUsingSample/bin/
+/PlotBuilder.LibUsingSample/obj/

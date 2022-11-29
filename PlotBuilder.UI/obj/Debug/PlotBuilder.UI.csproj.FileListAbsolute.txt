@@ -1,6 +1,0 @@
-C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\bin\Debug\PlotBuilder.UI.dll
-C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\bin\Debug\PlotBuilder.UI.pdb
-C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\obj\Debug\PlotBuilder.UI.csproj.AssemblyReference.cache
-C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\obj\Debug\PlotBuilder.UI.csproj.CoreCompileInputs.cache
-C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\obj\Debug\PlotBuilder.UI.dll
-C:\Users\damag\RiderProjects\PlotBuilder\PlotBuilder.UI\obj\Debug\PlotBuilder.UI.pdb

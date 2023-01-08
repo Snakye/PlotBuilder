@@ -12,13 +12,11 @@ public class SinglePlotData
     /// <param name="yPoints">Значения</param>
     /// <param name="yLabel">Название оси Y</param>
     /// <param name="graphName">Имя графика</param>
-    /// <param name="markerShape">Форма линий</param>
-    public SinglePlotData(List<double> yPoints, string yLabel, string graphName, MarkerShape markerShape = MarkerShape.none)
+    public SinglePlotData(List<double> yPoints, string yLabel, string graphName)
     {
         YPoints = yPoints;
         YLabel = yLabel;
         GraphName = graphName;
-        MarkerShape = markerShape;
     }
 
     /// <summary>
@@ -36,9 +34,4 @@ public class SinglePlotData
     /// Названия графиков
     /// </summary>
     public string GraphName { get; set; }
-
-    /// <summary>
-    /// Вид точек графиков
-    /// </summary>
-    public MarkerShape MarkerShape { get; set; }
 }

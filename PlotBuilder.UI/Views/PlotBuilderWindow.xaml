@@ -5,6 +5,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:local="clr-namespace:PlotBuilder.UI.Views"
         xmlns:viewModels="clr-namespace:PlotBuilder.UI.ViewModels"
+        xmlns:m="clr-namespace:PlotBuilder.UI.Models"
         mc:Ignorable="d"
         Title="MainWindow"
         SizeToContent="WidthAndHeight"
@@ -20,6 +21,17 @@
                 <ResourceDictionary Source="../Assets/Icons.xaml"/>
                 <ResourceDictionary Source="../Styles/ControlStyles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+            <DataTemplate DataType="{x:Type m:ScatterGroup}">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="{Binding GroupName}"/>
+                </StackPanel>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type m:SingleScatter}">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="{Binding ScatterName}"/>
+                    <CheckBox IsChecked="{Binding IsVisible}"/>
+                </StackPanel>
+            </DataTemplate>
         </ResourceDictionary>
     </Window.Resources>
     
@@ -70,6 +82,9 @@
                     <ComboBox
                         Grid.Column="1"
                         Grid.Row="0"
+                        Name="Cb1"
+                        ItemsSource="{Binding Graph.Groups, UpdateSourceTrigger=PropertyChanged}"
+                        SelectedItem="{Binding SelectedGroup, UpdateSourceTrigger=PropertyChanged}"
                         Margin="5"/>
                     
                     <TextBlock
@@ -81,6 +96,7 @@
                     <ComboBox
                         Grid.Column="1"
                         Grid.Row="1"
+                        ItemsSource="{Binding SelectedGroup.Scatters}"
                         Margin="5"/>
                     
                     <TextBlock
@@ -92,6 +108,7 @@
                     <CheckBox 
                         Grid.Column="1"
                         Grid.Row="2"
+                        IsChecked="{Binding ChangeStyles}"
                         VerticalAlignment="Center"
                         Margin="5"/>
                     

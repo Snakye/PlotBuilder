@@ -1,6 +1,7 @@
 ﻿namespace PlotBuilder.UI.Models;
 
 using System.Collections.Generic;
+using ScottPlot;
 
 /// <summary>Полная информация, для построения графиков</summary>
 public class GraphData

@@ -8,8 +8,11 @@
         Title="MainWindow"
         Height="450"
         Width="800">
-    <Grid>
+    <StackPanel>
         <WpfPlot 
-            Name="WpfPlot1"/>
-    </Grid>
+            Name="WpfPlot1"
+            Height="400"/>
+        <Button Content="Видимость" Click="ButtonBase_OnClick"/>
+        <Button Content="Маркировка" Click="ButtonBase_OnClick1"/>
+    </StackPanel>
 </Window>

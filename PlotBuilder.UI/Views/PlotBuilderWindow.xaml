@@ -9,7 +9,7 @@
         mc:Ignorable="d"
         Title="MainWindow"
         SizeToContent="WidthAndHeight"
-        MinWidth="800"
+        MinWidth="810"
         MinHeight="600"
         FontSize="14"
         d:DataContext="{d:DesignInstance viewModels:PlotBuilderViewModel}">
